@@ -4,9 +4,8 @@ A Streamlit-based web application for face detection and feature recognition usi
 
 ## Features
 
-- **Face Detection on Images**: Upload an image and detect faces with bounding boxes.
+- **Combined Face Detection**: Upload an image and choose between face detection or face + eyes detection with bounding boxes.
 - **Face Detection**: Real-time face detection (placeholder for future implementation).
-- **Face + Eyes Detection**: Detect faces and eyes in uploaded images.
 
 ## Installation
 
