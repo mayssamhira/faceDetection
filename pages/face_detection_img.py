@@ -8,7 +8,7 @@ st.title("🧑‍🦰 Face Detection")
 
 uploaded_file = st.file_uploader("Upload image", type=["jpg","jpeg","png"])
 
-cascade_path = cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
+cascade_path = "pages/haarcascade_frontalface_default.xml"
 face_cascade = cv2.CascadeClassifier(cascade_path)
 
 if face_cascade.empty():

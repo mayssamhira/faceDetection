@@ -1,13 +1,12 @@
 # Face Detection App
 
-A Streamlit-based application for face detection using OpenCV's Haar Cascade classifiers. This app provides multiple tools for detecting faces in images and real-time video streams.
+A Streamlit-based web application for face detection and feature recognition using OpenCV.
 
 ## Features
 
-- **Welcome Page**: Introduction to the app with navigation sidebar.
-- **Face Detection on Images**: Upload an image (JPG, JPEG, PNG) and detect faces with bounding boxes.
-- **Real-Time Face Detection**: Use your webcam to detect faces in live video with face count display.
-- **Face + Eyes Detection**: Upload an image to detect faces and eyes with color-coded rectangles.
+- **Face Detection on Images**: Upload an image and detect faces with bounding boxes.
+- **Face Detection**: Real-time face detection (placeholder for future implementation).
+- **Face + Eyes Detection**: Detect faces and eyes in uploaded images.
 
 ## Installation
 
@@ -31,27 +30,16 @@ Run the Streamlit app:
 streamlit run main.py
 ```
 
-Navigate through the app using the sidebar:
-
-- Select "Face Detection" for image-based detection.
-- Select "Face Detection App" for real-time webcam detection.
-- Select "Face + Eyes Detection" for advanced feature detection.
+Navigate through the sidebar to access different detection tools.
 
 ## Requirements
 
 - Python 3.7+
-- streamlit
-- opencv-python-headless
-- numpy
+- Streamlit
+- OpenCV
+- NumPy
 - Pillow
-
-## How It Works
-
-The app uses OpenCV's Haar Cascade classifiers for detecting facial features:
-
-- `haarcascade_frontalface_default.xml` for face detection.
-- `haarcascade_eye.xml` for eye detection.
 
 ## License
 
-This project is open-source. Feel free to use and modify as needed.
+This project is licensed under the MIT License.
